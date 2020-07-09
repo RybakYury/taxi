@@ -1365,6 +1365,7 @@ textarea {
     .trusted-block {
         display: block;
         padding-top: 46px;
+        padding-bottom: 38px;
     }
     .trusted__left {
         width: 100%;
