@@ -281,6 +281,7 @@ body {
     cursor: pointer;
     font-weight: 700;
     text-transform: uppercase;
+    width: 148px;
 }
 
 .trusted__left-boot:hover {
@@ -1245,6 +1246,13 @@ textarea {
     }
     .tariffs-block__name {
         padding-bottom: 25px;
+    }
+    .then-block__read:hover {
+        color: #131313;
+        background: #ffc61a;
+    }
+    .trusted__left-boot:hover {
+        background: #131313;
     }
     .then-option-block {
         -ms-flex-preferred-size: 100%;
