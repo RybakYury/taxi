@@ -72,6 +72,7 @@ body {
     padding: 5px 22px 5px 22px;
     color: azure;
     text-transform: uppercase;
+    
 }
 
 .menu ul li {
@@ -79,13 +80,24 @@ body {
     display: -ms-inline-flexbox;
     display: inline-flex;
     border-radius: 14px;
-}
 
-.menu ul li:hover {
-    background: #ffc61a;
+}
+/*размытие не клик.кнопок*/
+.menu ul:hover li a{
+   
     border-radius: 14px;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
+    opacity: .2;
+    transform: scale(1);
+    filter: blur(0.9px);
+    
+}
+.menu ul li a:hover {
+    color: #ffc61a;
+    border-radius: 14px;
+    opacity: 1;
+    transform: scale(1.4);
+    filter: blur(0px);
+    
 }
 
 .bg__burger {
@@ -436,16 +448,21 @@ textarea {
 
 .tariffs-rows:hover {
     background-color: #ffc61a;
+    transform: scale(1);
+    transition: .2;
+
 }
 
 .tariffs-rows:hover .tariffs-row__priсe {
     color: #131313;
+    transform: scale(1.2);
 }
 
 .tariffs-rows:hover .tariffs-row__read a {
     color: #fff;
     background-color: #131313;
 }
+
 
 .then {
     background-image: url(../img/bg_2.jpg);
