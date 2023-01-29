@@ -31,7 +31,9 @@ body {
     padding: 0px;
     margin: 0px;
 }
-
+.main{
+    overflow: hidden;
+}
 .content-nav {
     max-width: 1460px;
     margin: 0 auto;
@@ -919,7 +921,9 @@ textarea {
     font-size: 48px;
     font-weight: 700;
 }
-
+.ready-info__phone a{
+    color: inherit;
+}
 
 /* --Footer -- */
 
